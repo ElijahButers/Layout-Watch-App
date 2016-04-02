@@ -10,8 +10,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Layout_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="left" id="TrA-in-oBl">
+                        <group width="1" alignment="left" layout="vertical" id="TrA-in-oBl">
                             <items>
+                                <group width="1" alignment="left" id="06Q-RG-5eg"/>
                                 <imageView alignment="left" image="wwdc" id="hlB-wL-La6"/>
                             </items>
                         </group>
