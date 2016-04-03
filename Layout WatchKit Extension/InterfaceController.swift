@@ -29,8 +29,16 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var expandedCommentLabel: WKInterfaceLabel!
     @IBOutlet var collapsedCommentLabel: WKInterfaceLabel!
     @IBOutlet var moreLabel: WKInterfaceLabel!
+    var expanded = false
     
     @IBAction func onMoreButton() {
+        
+        expanded = !expanded
+        
+    collapsedCommentLabel.setHidden(expanded)
+    expandedCommentLabel.setHidden(!expanded)
+        
+        moreLabel.setText("Tap to " + (expanded ? "view less" : "view more") + "...")
     }
   
 }

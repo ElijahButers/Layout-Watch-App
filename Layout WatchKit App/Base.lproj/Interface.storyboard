@@ -36,10 +36,10 @@
                         <button alignment="left" id="Jgk-Ik-tn0">
                             <group key="contentGroup" width="1" alignment="left" layout="vertical" id="lfR-LX-614">
                                 <items>
-                                    <label alignment="left" text="My first WWDC was awesome!" id="srp-2j-p3h">
+                                    <label alignment="left" text="My first WWDC was awesome! Can’t wait for next year!" id="srp-2j-p3h">
                                         <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                     </label>
-                                    <label alignment="left" hidden="YES" text="Can’t wait for next year!" numberOfLines="0" id="XCI-kd-0Vd">
+                                    <label alignment="left" hidden="YES" text="My first WWDC was awesome! Can’t wait for next year!" numberOfLines="0" id="XCI-kd-0Vd">
                                         <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
                                     </label>
                                     <label alignment="left" text="Tap to view more..." id="l0f-yO-zYD">
