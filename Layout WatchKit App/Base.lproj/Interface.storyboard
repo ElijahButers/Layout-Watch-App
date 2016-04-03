@@ -34,7 +34,34 @@
                             <color key="backgroundColor" red="0.12156862745098039" green="0.12941176470588234" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                         <button alignment="left" id="Jgk-Ik-tn0">
-                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="lfR-LX-614"/>
+                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="lfR-LX-614">
+                                <items>
+                                    <label alignment="left" text="My first WWDC was awesome!" id="srp-2j-p3h">
+                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                    </label>
+                                    <label alignment="left" hidden="YES" text="Can’t wait for next year!" numberOfLines="0" id="XCI-kd-0Vd">
+                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                    </label>
+                                    <label alignment="left" text="Tap to view more..." id="l0f-yO-zYD">
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                    </label>
+                                </items>
+                                <variation key="default">
+                                    <mask key="items">
+                                        <exclude reference="srp-2j-p3h"/>
+                                        <exclude reference="XCI-kd-0Vd"/>
+                                        <exclude reference="l0f-yO-zYD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="device=watch42mm">
+                                    <mask key="items">
+                                        <include reference="srp-2j-p3h"/>
+                                        <include reference="XCI-kd-0Vd"/>
+                                        <include reference="l0f-yO-zYD"/>
+                                    </mask>
+                                </variation>
+                            </group>
                         </button>
                     </items>
                 </controller>
