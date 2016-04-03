@@ -24,6 +24,12 @@
                                     </items>
                                 </group>
                                 <imageView alignment="left" image="wwdc" id="hlB-wL-La6"/>
+                                <group width="1" alignment="left" id="Dh0-ai-aVa">
+                                    <items>
+                                        <button width="0.5" alignment="left" title="Button" id="plO-wj-VyB"/>
+                                        <button width="0.5" alignment="left" title="Button" id="86Y-wl-TTj"/>
+                                    </items>
+                                </group>
                             </items>
                             <color key="backgroundColor" red="0.12156862745098039" green="0.12941176470588234" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
