@@ -62,8 +62,16 @@
                                     </mask>
                                 </variation>
                             </group>
+                            <connections>
+                                <action selector="onMoreButton" destination="AgC-eL-Hgc" id="c2L-ml-5c3"/>
+                            </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="collapsedCommentLabel" destination="XCI-kd-0Vd" id="GdK-cF-WBm"/>
+                        <outlet property="expandedCommentLabel" destination="srp-2j-p3h" id="Wrm-fp-UVs"/>
+                        <outlet property="moreLabel" destination="l0f-yO-zYD" id="4Gn-py-ocO"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="528.30769230769238" y="518.71794871794873"/>

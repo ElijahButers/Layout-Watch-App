@@ -25,5 +25,12 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    @IBOutlet var expandedCommentLabel: WKInterfaceLabel!
+    @IBOutlet var collapsedCommentLabel: WKInterfaceLabel!
+    @IBOutlet var moreLabel: WKInterfaceLabel!
+    
+    @IBAction func onMoreButton() {
+    }
   
 }
