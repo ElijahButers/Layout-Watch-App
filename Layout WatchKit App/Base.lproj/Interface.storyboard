@@ -10,33 +10,36 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Layout_WatchKit_App" customModuleProvider="target">
                     <items>
+                        <group width="0.94999999999999996" alignment="center" id="06Q-RG-5eg">
+                            <items>
+                                <label alignment="left" text="@gruber" id="TDW-ty-yR5">
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                                <label alignment="right" text="13m" textAlignment="center" id="8p2-P0-BOV">
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                </label>
+                            </items>
+                        </group>
                         <group width="1" alignment="left" layout="vertical" id="TrA-in-oBl">
                             <items>
-                                <group width="0.94999999999999996" alignment="center" id="06Q-RG-5eg">
-                                    <items>
-                                        <label alignment="left" text="@gruber" id="TDW-ty-yR5">
-                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
-                                        </label>
-                                        <label alignment="right" text="13m" textAlignment="center" id="8p2-P0-BOV">
-                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
-                                        </label>
-                                    </items>
-                                </group>
                                 <imageView alignment="left" image="wwdc" id="hlB-wL-La6"/>
                                 <group width="1" alignment="left" id="Dh0-ai-aVa">
                                     <items>
-                                        <button width="0.5" alignment="left" title="Button" id="plO-wj-VyB"/>
-                                        <button width="0.5" alignment="left" title="Button" id="86Y-wl-TTj"/>
+                                        <button width="0.5" alignment="left" title="Like" id="plO-wj-VyB"/>
+                                        <button width="0.5" alignment="left" title="Share" id="86Y-wl-TTj"/>
                                     </items>
                                 </group>
                             </items>
                             <color key="backgroundColor" red="0.12156862745098039" green="0.12941176470588234" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
+                        <button alignment="left" id="Jgk-Ik-tn0">
+                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="lfR-LX-614"/>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="380" y="378"/>
+            <point key="canvasLocation" x="528.30769230769238" y="518.71794871794873"/>
         </scene>
     </scenes>
 </document>
