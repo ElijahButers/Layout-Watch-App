@@ -12,7 +12,12 @@
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="TrA-in-oBl">
                             <items>
-                                <group width="1" alignment="left" id="06Q-RG-5eg"/>
+                                <group width="1" alignment="left" id="06Q-RG-5eg">
+                                    <items>
+                                        <label alignment="left" text="@gruber" id="TDW-ty-yR5"/>
+                                        <label alignment="right" text="13m" textAlignment="center" id="8p2-P0-BOV"/>
+                                    </items>
+                                </group>
                                 <imageView alignment="left" image="wwdc" id="hlB-wL-La6"/>
                             </items>
                         </group>
