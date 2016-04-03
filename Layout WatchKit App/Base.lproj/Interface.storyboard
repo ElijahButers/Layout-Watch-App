@@ -14,12 +14,18 @@
                             <items>
                                 <group width="1" alignment="left" id="06Q-RG-5eg">
                                     <items>
-                                        <label alignment="left" text="@gruber" id="TDW-ty-yR5"/>
-                                        <label alignment="right" text="13m" textAlignment="center" id="8p2-P0-BOV"/>
+                                        <label alignment="left" text="@gruber" id="TDW-ty-yR5">
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
+                                        <label alignment="right" text="13m" textAlignment="center" id="8p2-P0-BOV">
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                        </label>
                                     </items>
                                 </group>
                                 <imageView alignment="left" image="wwdc" id="hlB-wL-La6"/>
                             </items>
+                            <color key="backgroundColor" red="0.12156862745098039" green="0.12941176470588234" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                     </items>
                 </controller>
