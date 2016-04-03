@@ -12,7 +12,7 @@
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="TrA-in-oBl">
                             <items>
-                                <group width="1" alignment="left" id="06Q-RG-5eg">
+                                <group width="0.94999999999999996" alignment="center" id="06Q-RG-5eg">
                                     <items>
                                         <label alignment="left" text="@gruber" id="TDW-ty-yR5">
                                             <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
